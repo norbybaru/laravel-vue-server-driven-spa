@@ -12,7 +12,7 @@
 
 ## Installation
 
-- `composer create-project --prefer-dist norbybaru/laravel-vue-server-driven-spa`
+- Clone project. `git clone git@github.com:norbybaru/laravel-vue-server-driven-spa.git`
 - Edit `.env` and set your database connection details
 - (When installed via git clone or download, run `php artisan key:generate` and `php artisan jwt:secret`)
 - `php artisan migrate`
