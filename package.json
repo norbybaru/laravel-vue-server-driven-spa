@@ -42,11 +42,16 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.2.2",
+    "hex-to-rgba": "^2.0.1",
     "laravel-mix": "^4.0.15",
     "laravel-mix-versionhash": "^1.0.7",
+    "laravel-mix-purgecss": "^4.1.0",
+    "lodash": "^4.17.5",
     "resolve-url-loader": "^2.3.1",
     "sass": "^1.20.1",
     "sass-loader": "^7.1.0",
+    "normalize.css": "^8.0.1",
+    "tailwindcss": "^0.7.2",
     "vue-template-compiler": "^2.6.10",
     "webpack-bundle-analyzer": "^3.3.2"
   }

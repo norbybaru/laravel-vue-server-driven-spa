@@ -1,7 +1,7 @@
 {
-    "name": "cretueusebiu/laravel-vue-spa",
-    "description": "A Laravel-Vue SPA starter project template.",
-    "keywords": ["spa", "laravel", "vue"],
+    "name": "norbybaru/laravel-vue-server-driven-spa",
+    "description": "A Laravel-Vue Server Driven SPA starter project template.",
+    "keywords": ["spa", "laravel", "vue", "ssr"],
     "license": "MIT",
     "type": "project",
     "require": {

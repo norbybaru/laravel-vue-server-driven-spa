@@ -64,7 +64,12 @@ export default {
   },
 
   metaInfo () {
-    return { title: this.$t('login') }
+    return {
+      title: this.$t('login'),
+      meta: [
+        { vmid: 'description', name: 'description', content: this.$t('login_meta') }
+      ]
+    }
   },
 
   data: () => ({

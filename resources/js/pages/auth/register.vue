@@ -73,7 +73,12 @@ export default {
   },
 
   metaInfo () {
-    return { title: this.$t('register') }
+    return {
+      title: this.$t('register'),
+      meta: [
+        { vmid: 'description', name: 'description', content: this.$t('register_meta') }
+      ]
+    }
   },
 
   data: () => ({
