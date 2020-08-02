@@ -1,5 +1,20 @@
 # LARAVEL VUE SERVER DRIVEN SPA
-
+## SPA
+[View Resources](https://github.com/norbybaru/laravel-vue-server-driven-spa/tree/master/resources/js)
+### Directory Structure
+```
+resouces/
+|- js/                  spa source directory
+|   |- components/      all components to be imported into your views
+|   |- lang/            ldirectory contains ocalization files. 
+|   |- layouts/         directory contains application layouts
+|   |- middleware/      directory contains application middleware that should run before rending pages or layout
+|   |- pages/           directory contains application views
+|   |- plugins/         directory contains js plugins to import
+|   |- routers/         directory contains applications routing
+|   |- store/           directorty contains Vuex store files for state management
+|   |- app.js           javascript file serve as entry point for your application
+```
 ## Features
 
 - Laravel 7
